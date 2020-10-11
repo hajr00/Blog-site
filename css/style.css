@@ -3,42 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: rgba(248, 149, 0, 0.22);
+}
+.dropdown-menu {
+    min-width: 222px;
+}
 .navbar-brand {
     margin-left: 10px;
 }
-.bot-line {
-    box-shadow: 0px 1px 15px -1px rgba(0,0,0,0.75);
-}
-.blogs {
-    margin-top: 20px;
-    height: 500px;
+.navbar {
+    z-index: 10;
     width: 100%;
 }
-.whitel {
-    float: left;
-    width: 80%;
-    margin: 0;
+.blogs {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 70%;
+    padding-top: 60px;
 }
-.card {
-    margin: 30px 2%;
-    max-height: 250px;
-    width: 250px;
-    float: left;
-
+.list-group-item {
+    margin-bottom: 10px;
 }
+.logint {
+    margin-right: 10px;
+}
+/*
 .userint {
-    border-top-left-radius: 40px;
     float: right;
     width: 20%;
-    height: 800px;
-    background-color: rgba(191, 191, 191, 0.172);
+    text-align: center;
+    z-index: 99;
 }
 .user {
-    position: relative;
-    display: block;
     margin-left: auto;
     text-align: center;
     margin-right: auto;
     width: 40%;
     top: 50%;
 }
+*/
