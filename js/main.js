@@ -17,5 +17,8 @@
   }
 
   function loggedOn() {
-      document.getElementById("loging").innerHTML = "";
-  }
+      var logi = document.getElementById("loging").innerHTML = "Admin";
+      if (logi == 'Admin') {
+        document.getElementsByClassName('.list-group.item').innerHTML = "Hello";
+      }
+}
