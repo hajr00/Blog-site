@@ -67,6 +67,7 @@ function first() {
   nonine.classList.remove("active");
   noten.classList.remove("active");
   noone.classList.add("active");
+  document.getElementById("selectedBlog").innerHTML = "Blog";
 }
 function second() {
   noone.classList.remove("active");
@@ -79,6 +80,7 @@ function second() {
   nonine.classList.remove("active");
   noten.classList.remove("active");
   notwo.classList.add("active");
+  document.getElementById("selectedBlog").innerHTML = "Hrana";
 }
 function third() {
   noone.classList.remove("active");
@@ -91,6 +93,7 @@ function third() {
   nonine.classList.remove("active");
   noten.classList.remove("active");
   nothree.classList.add("active");
+  document.getElementById("selectedBlog").innerHTML = "Sport";
 }
 function fourth() {
   noone.classList.remove("active");
@@ -103,6 +106,7 @@ function fourth() {
   nonine.classList.remove("active");
   noten.classList.remove("active");
   nofour.classList.add("active");
+  document.getElementById("selectedBlog").innerHTML = "Music";
 }
 function fifth() {
   noone.classList.remove("active");
@@ -115,6 +119,7 @@ function fifth() {
   nonine.classList.remove("active");
   noten.classList.remove("active");
   nofive.classList.add("active");
+  document.getElementById("selectedBlog").innerHTML = "Undefined blog";
 }
 function sixth() {
   noone.classList.remove("active");
@@ -127,6 +132,7 @@ function sixth() {
   nonine.classList.remove("active");
   noten.classList.remove("active");
   nosix.classList.add("active");
+  document.getElementById("selectedBlog").innerHTML = "Undefined blog";
 }
 function seventh() {
   noone.classList.remove("active");
@@ -139,6 +145,7 @@ function seventh() {
   nonine.classList.remove("active");
   noten.classList.remove("active");
   noseven.classList.add("active");
+  document.getElementById("selectedBlog").innerHTML = "Undefined blog";
 }
 function eighth() {
   noone.classList.remove("active");
@@ -151,6 +158,7 @@ function eighth() {
   nonine.classList.remove("active");
   noten.classList.remove("active");
   noeight.classList.add("active");
+  document.getElementById("selectedBlog").innerHTML = "Undefined blog";
 }
 function nineth() {
   noone.classList.remove("active");
@@ -163,6 +171,7 @@ function nineth() {
   noeight.classList.remove("active");
   noten.classList.remove("active");
   nonine.classList.add("active");
+  document.getElementById("selectedBlog").innerHTML = "Undefined blog";
 }
 function tenth() {
   noone.classList.remove("active");
@@ -175,6 +184,7 @@ function tenth() {
   noeight.classList.remove("active");
   nonine.classList.remove("active");
   noten.classList.add("active");
+  document.getElementById("selectedBlog").innerHTML = "Undefined blog";
 }
 
 function postComment() {
