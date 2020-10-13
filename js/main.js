@@ -4,6 +4,8 @@
     if (x == "admin" && y == "admin") {
       alert("Succesfully logged on");
       loggedOn();
+      checking();
+      console.log(x, y);
     } else if (x == "") {
         alert("Username not entered!");
         return false;
@@ -15,10 +17,32 @@
         return false;
     }
   }
+  var logg = document.getElementById("loging");
 
   function loggedOn() {
-      var logi = document.getElementById("loging").innerHTML = "Admin";
-      if (logi == 'Admin') {
-        document.getElementsByClassName('.list-group.item').innerHTML = "Hello";
+      logg.innerHTML = "Admin";
       }
+      
+        function checking() {
+              if (logg = "Admin") {
+                console.log('editovanje');
+                document.querySelector('#noOne').style.display = 'block';
+                document.querySelector('#noTwo').style.display = 'block';
+                document.querySelector('#noThree').style.display = 'block';
+                document.querySelector('#noFour').style.display = 'block';
+                document.querySelector('#noFive').style.display = 'block';
+                document.querySelector('#noSix').style.display = 'block';
+                document.querySelector('#noSeven').style.display = 'block';
+                document.querySelector('#noEight').style.display = 'block';
+                document.querySelector('#noNine').style.display = 'block';
+                document.querySelector('#noTen').style.display = 'block';
+              }
+            }
+
+            
+function recentBlogOn() {
+  /* show */
+}
+function homePage() {
+  /* show */
 }

@@ -9,6 +9,9 @@ body {
 .dropdown-menu {
     min-width: 222px;
 }
+.nav-link {
+    cursor: pointer;
+}
 .navbar-brand {
     margin-left: 10px;
 }
@@ -21,14 +24,38 @@ body {
     margin-top: 20px;
     margin-left: 20px;
     margin-bottom: 10px;
-    width: 70%;
+    width: 100%;
     padding-top: 60px;
+}
+.list-group {
+    width: 70%;
+    display: inline-block;
 }
 .list-group-item {
     margin-bottom: 10px;
 }
 .logint {
     margin-right: 10px;
+}
+.edit-btns {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: inline-block;
+    right: 370px;
+    transform: translate(15%, 30px);
+}
+.btn-blog {
+    width: 90px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: rgba(162, 98, 2, 0.303);
+}
+.btn-blog:hover {
+    background-color: rgba(228, 137, 0, 0.494);
+}
+#noOne, #noTwo, #noThree, #noFour, #noFive, #noSix, #noSeven, #noEight, #noNine, #noTen {
+    display: none;
 }
 /*
 .userint {
