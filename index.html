@@ -46,13 +46,11 @@
     </nav>
     <main>
       <section class="blogs" id="home">
-        
-        
         <div class="list-group">
-          <div class="edit-btns" id="edbt">
+          <div class="edit-btns">
             <button class="btn-blog" id="noOne">Edit</button>
           </div>
-          <a href="#" class="shadow list-group-item list-group-item-action active">
+          <a href="#" id="first" class="shadow list-group-item list-group-item-action active" onclick="first()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">Blog</h5>
               <small>5 minutes ago</small>
@@ -60,10 +58,10 @@
             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
             <small>Donec id elit non mi porta.</small>
           </a>
-          <div class="edit-btns" id="edbt">
+          <div class="edit-btns">
             <button class="btn-blog" id="noTwo">Edit</button>
           </div>
-          <a href="#" class="shadow list-group-item list-group-item-action">
+          <a href="#" id="second" class="shadow list-group-item list-group-item-action" onclick="second()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">Hrana</h5>
               <small class="text-muted">5 hours ago</small>
@@ -71,10 +69,10 @@
             <p class="mb-1">Hrana je bilo koja tvar koja apsorpcijom u ljudskom organizmu doprinosi očuvanju homeostaze istog.</p>
             <small class="text-muted">Hrana | Definicija hrane</small>
           </a>
-          <div class="edit-btns" id="edbt">
+          <div class="edit-btns">
             <button class="btn-blog" id="noThree">Edit</button>
           </div>
-          <a href="#" class="shadow list-group-item list-group-item-action">
+          <a href="#" id="third" class="shadow list-group-item list-group-item-action" onclick="third()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">Sport</h5>
               <small class="text-muted">10 hours ago</small>
@@ -82,10 +80,10 @@
             <p class="mb-1">Sport includes all forms of competitive physical activity or games which, through casual or organized participation, at least in part aim to use, maintain or improve physical ability and skills while providing enjoyment to participants, and in some cases, entertainment for spectators.</p>
             <small class="text-muted">Donec id elit non mi porta.</small>
           </a>
-          <div class="edit-btns" id="edbt">
+          <div class="edit-btns">
             <button class="btn-blog" id="noFour">Edit</button>
           </div>
-          <a href="#" class="shadow list-group-item list-group-item-action">
+          <a href="#" id="fourth" class="shadow list-group-item list-group-item-action" onclick="fourth()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">Music</h5>
               <small class="text-muted">3 days ago</small>
@@ -93,10 +91,10 @@
             <p class="mb-1">Music is an art form, and cultural activity, whose medium is sound. General definitions of music include common elements such as pitch rhythm dynamics</p>
             <small class="text-muted">Music | Description</small>
           </a>
-          <div class="edit-btns" id="edbt">
+          <div class="edit-btns">
             <button class="btn-blog" id="noFive">Edit</button>
           </div>
-          <a href="#" class="shadow list-group-item list-group-item-action">
+          <a href="#" id="fifth" class="shadow list-group-item list-group-item-action" onclick="fifth()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">List group item heading</h5>
               <small class="text-muted">3 days ago</small>
@@ -104,10 +102,10 @@
             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
             <small class="text-muted">Donec id elit non mi porta.</small>
           </a>
-          <div class="edit-btns" id="edbt">
+          <div class="edit-btns">
             <button class="btn-blog" id="noSix">Edit</button>
           </div>
-          <a href="#" class="shadow list-group-item list-group-item-action">
+          <a href="#" id="sixth" class="shadow list-group-item list-group-item-action" onclick="sixth()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">List group item heading</h5>
               <small class="text-muted">3 days ago</small>
@@ -115,10 +113,10 @@
             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
             <small class="text-muted">Donec id elit non mi porta.</small>
           </a>
-          <div class="edit-btns" id="edbt">
+          <div class="edit-btns">
             <button class="btn-blog" id="noSeven">Edit</button>
           </div>
-          <a href="#" class="shadow list-group-item list-group-item-action">
+          <a href="#" id="seventh" class="shadow list-group-item list-group-item-action" onclick="seventh()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">List group item heading</h5>
               <small class="text-muted">3 days ago</small>
@@ -126,10 +124,10 @@
             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
             <small class="text-muted">Donec id elit non mi porta.</small>
           </a>
-          <div class="edit-btns" id="edbt">
+          <div class="edit-btns">
             <button class="btn-blog" id="noEight">Edit</button>
           </div>
-          <a href="#" class="shadow list-group-item list-group-item-action">
+          <a href="#" id="eighth" class="shadow list-group-item list-group-item-action" onclick="eighth()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">List group item heading</h5>
               <small class="text-muted">3 days ago</small>
@@ -137,10 +135,11 @@
             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
             <small class="text-muted">Donec id elit non mi porta.</small>
           </a>
-          <div class="edit-btns" id="edbt">
+          <div class="edit-btns">
             <button class="btn-blog" id="noNine">Edit</button>
           </div>
-          <a href="#" class="shadow list-group-item list-group-item-action">
+          <a href="#" id="nineth"
+          class="shadow list-group-item list-group-item-action" onclick="nineth()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">List group item heading</h5>
               <small class="text-muted">3 days ago</small>
@@ -148,10 +147,10 @@
             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
             <small class="text-muted">Donec id elit non mi porta.</small>
           </a>
-          <div class="edit-btns" id="edbt">
+          <div class="edit-btns">
             <button class="btn-blog" id="noTen">Edit</button>
           </div>
-          <a href="#" class="shadow list-group-item list-group-item-action">
+          <a href="#" id="tenth" class="shadow list-group-item list-group-item-action" onclick="tenth()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">List group item heading</h5>
               <small class="text-muted">3 days ago</small>
@@ -160,6 +159,18 @@
             <small class="text-muted">Donec id elit non mi porta.</small>
           </a>
           
+        </div>
+        <div class="comments">
+            <h4>Comments about: <p id="selectedBlog">Blog</p></h4>
+            <div id="coms">
+              
+            </div>
+            <div class="input-group">
+              <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+              <div class="input-group-append">
+                <button type="button" class="btn btn-outline-secondary" onclick="postComment()">Post</button>
+              </div>
+            </div>
         </div>
       </section>
       <section class="recentBlog" id="blog">
