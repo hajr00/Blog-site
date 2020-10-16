@@ -57,133 +57,133 @@ var noten = document.querySelector(".list-group #tenth");
 
   
 function first() {
-  notwo.classList.remove("active");
-  nothree.classList.remove("active");
-  nofour.classList.remove("active");
-  nofive.classList.remove("active");
-  nosix.classList.remove("active");
-  noseven.classList.remove("active");
-  noeight.classList.remove("active");
-  nonine.classList.remove("active");
-  noten.classList.remove("active");
-  noone.classList.add("active");
+  notwo.classList.remove("activee");
+  nothree.classList.remove("activee");
+  nofour.classList.remove("activee");
+  nofive.classList.remove("activee");
+  nosix.classList.remove("activee");
+  noseven.classList.remove("activee");
+  noeight.classList.remove("activee");
+  nonine.classList.remove("activee");
+  noten.classList.remove("activee");
+  noone.classList.add("activee");
   document.getElementById("selectedBlog").innerHTML = "Blog";
 }
 function second() {
-  noone.classList.remove("active");
-  nothree.classList.remove("active");
-  nofour.classList.remove("active");
-  nofive.classList.remove("active");
-  nosix.classList.remove("active");
-  noseven.classList.remove("active");
-  noeight.classList.remove("active");
-  nonine.classList.remove("active");
-  noten.classList.remove("active");
-  notwo.classList.add("active");
+  noone.classList.remove("activee");
+  nothree.classList.remove("activee");
+  nofour.classList.remove("activee");
+  nofive.classList.remove("activee");
+  nosix.classList.remove("activee");
+  noseven.classList.remove("activee");
+  noeight.classList.remove("activee");
+  nonine.classList.remove("activee");
+  noten.classList.remove("activee");
+  notwo.classList.add("activee");
   document.getElementById("selectedBlog").innerHTML = "Hrana";
 }
 function third() {
-  noone.classList.remove("active");
-  notwo.classList.remove("active");
-  nofour.classList.remove("active");
-  nofive.classList.remove("active");
-  nosix.classList.remove("active");
-  noseven.classList.remove("active");
-  noeight.classList.remove("active");
-  nonine.classList.remove("active");
-  noten.classList.remove("active");
-  nothree.classList.add("active");
+  noone.classList.remove("activee");
+  notwo.classList.remove("activee");
+  nofour.classList.remove("activee");
+  nofive.classList.remove("activee");
+  nosix.classList.remove("activee");
+  noseven.classList.remove("activee");
+  noeight.classList.remove("activee");
+  nonine.classList.remove("activee");
+  noten.classList.remove("activee");
+  nothree.classList.add("activee");
   document.getElementById("selectedBlog").innerHTML = "Sport";
 }
 function fourth() {
-  noone.classList.remove("active");
-  notwo.classList.remove("active");
-  nothree.classList.remove("active");
-  nofive.classList.remove("active");
-  nosix.classList.remove("active");
-  noseven.classList.remove("active");
-  noeight.classList.remove("active");
-  nonine.classList.remove("active");
-  noten.classList.remove("active");
-  nofour.classList.add("active");
+  noone.classList.remove("activee");
+  notwo.classList.remove("activee");
+  nothree.classList.remove("activee");
+  nofive.classList.remove("activee");
+  nosix.classList.remove("activee");
+  noseven.classList.remove("activee");
+  noeight.classList.remove("activee");
+  nonine.classList.remove("activee");
+  noten.classList.remove("activee");
+  nofour.classList.add("activee");
   document.getElementById("selectedBlog").innerHTML = "Music";
 }
 function fifth() {
-  noone.classList.remove("active");
-  notwo.classList.remove("active");
-  nothree.classList.remove("active");
-  nofour.classList.remove("active");
-  nosix.classList.remove("active");
-  noseven.classList.remove("active");
-  noeight.classList.remove("active");
-  nonine.classList.remove("active");
-  noten.classList.remove("active");
-  nofive.classList.add("active");
+  noone.classList.remove("activee");
+  notwo.classList.remove("activee");
+  nothree.classList.remove("activee");
+  nofour.classList.remove("activee");
+  nosix.classList.remove("activee");
+  noseven.classList.remove("activee");
+  noeight.classList.remove("activee");
+  nonine.classList.remove("activee");
+  noten.classList.remove("activee");
+  nofive.classList.add("activee");
   document.getElementById("selectedBlog").innerHTML = "Undefined blog";
 }
 function sixth() {
-  noone.classList.remove("active");
-  notwo.classList.remove("active");
-  nothree.classList.remove("active");
-  nofour.classList.remove("active");
-  nofive.classList.remove("active");
-  noseven.classList.remove("active");
-  noeight.classList.remove("active");
-  nonine.classList.remove("active");
-  noten.classList.remove("active");
-  nosix.classList.add("active");
+  noone.classList.remove("activee");
+  notwo.classList.remove("activee");
+  nothree.classList.remove("activee");
+  nofour.classList.remove("activee");
+  nofive.classList.remove("activee");
+  noseven.classList.remove("activee");
+  noeight.classList.remove("activee");
+  nonine.classList.remove("activee");
+  noten.classList.remove("activee");
+  nosix.classList.add("activee");
   document.getElementById("selectedBlog").innerHTML = "Undefined blog";
 }
 function seventh() {
-  noone.classList.remove("active");
-  notwo.classList.remove("active");
-  nothree.classList.remove("active");
-  nofour.classList.remove("active");
-  nofive.classList.remove("active");
-  nosix.classList.remove("active");
-  noeight.classList.remove("active");
-  nonine.classList.remove("active");
-  noten.classList.remove("active");
-  noseven.classList.add("active");
+  noone.classList.remove("activee");
+  notwo.classList.remove("activee");
+  nothree.classList.remove("activee");
+  nofour.classList.remove("activee");
+  nofive.classList.remove("activee");
+  nosix.classList.remove("activee");
+  noeight.classList.remove("activee");
+  nonine.classList.remove("activee");
+  noten.classList.remove("activee");
+  noseven.classList.add("activee");
   document.getElementById("selectedBlog").innerHTML = "Undefined blog";
 }
 function eighth() {
-  noone.classList.remove("active");
-  notwo.classList.remove("active");
-  nothree.classList.remove("active");
-  nofour.classList.remove("active");
-  nofive.classList.remove("active");
-  nosix.classList.remove("active");
-  noseven.classList.remove("active");
-  nonine.classList.remove("active");
-  noten.classList.remove("active");
-  noeight.classList.add("active");
+  noone.classList.remove("activee");
+  notwo.classList.remove("activee");
+  nothree.classList.remove("activee");
+  nofour.classList.remove("activee");
+  nofive.classList.remove("activee");
+  nosix.classList.remove("activee");
+  noseven.classList.remove("activee");
+  nonine.classList.remove("activee");
+  noten.classList.remove("activee");
+  noeight.classList.add("activee");
   document.getElementById("selectedBlog").innerHTML = "Undefined blog";
 }
 function nineth() {
-  noone.classList.remove("active");
-  notwo.classList.remove("active");
-  nothree.classList.remove("active");
-  nofour.classList.remove("active");
-  nofive.classList.remove("active");
-  nosix.classList.remove("active");
-  noseven.classList.remove("active");
-  noeight.classList.remove("active");
-  noten.classList.remove("active");
-  nonine.classList.add("active");
+  noone.classList.remove("activee");
+  notwo.classList.remove("activee");
+  nothree.classList.remove("activee");
+  nofour.classList.remove("activee");
+  nofive.classList.remove("activee");
+  nosix.classList.remove("activee");
+  noseven.classList.remove("activee");
+  noeight.classList.remove("activee");
+  noten.classList.remove("activee");
+  nonine.classList.add("activee");
   document.getElementById("selectedBlog").innerHTML = "Undefined blog";
 }
 function tenth() {
-  noone.classList.remove("active");
-  notwo.classList.remove("active");
-  nothree.classList.remove("active");
-  nofour.classList.remove("active");
-  nofive.classList.remove("active");
-  nosix.classList.remove("active");
-  noseven.classList.remove("active");
-  noeight.classList.remove("active");
-  nonine.classList.remove("active");
-  noten.classList.add("active");
+  noone.classList.remove("activee");
+  notwo.classList.remove("activee");
+  nothree.classList.remove("activee");
+  nofour.classList.remove("activee");
+  nofive.classList.remove("activee");
+  nosix.classList.remove("activee");
+  noseven.classList.remove("activee");
+  noeight.classList.remove("activee");
+  nonine.classList.remove("activee");
+  noten.classList.add("activee");
   document.getElementById("selectedBlog").innerHTML = "Undefined blog";
 }
 
