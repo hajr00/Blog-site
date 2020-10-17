@@ -20,7 +20,7 @@
               <a class="nav-link" onclick="homePage()">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" onclick="recentBlogOn()">Most recent blog</a>
+              <a class="nav-link" onclick="firstBlog()">Most recent blog</a>
             </li>
           </ul>
           
@@ -45,12 +45,12 @@
         </div>
     </nav>
     <main>
-      <section class="blogs" id="home">
+      <section class="blogs" id="landingpage">
         <div class="list-group">
           <div class="edit-btns">
             <button class="btn-blog" id="noOne">Edit</button>
           </div>
-          <a href="#" id="first" class="shadow list-group-item list-group-item-action activee" onclick="first()">
+          <a id="first" class="shadow list-group-item list-group-item-action activee" onmouseover="first()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">Blog</h5>
               <small>5 minutes ago</small>
@@ -61,7 +61,7 @@
           <div class="edit-btns">
             <button class="btn-blog" id="noTwo">Edit</button>
           </div>
-          <a href="#" id="second" class="shadow list-group-item list-group-item-action" onclick="second()">
+          <a href="#" id="second" class="shadow list-group-item list-group-item-action" onmouseover="second()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">Hrana</h5>
               <small class="text-muted">5 hours ago</small>
@@ -72,7 +72,7 @@
           <div class="edit-btns">
             <button class="btn-blog" id="noThree">Edit</button>
           </div>
-          <a href="#" id="third" class="shadow list-group-item list-group-item-action" onclick="third()">
+          <a href="#" id="third" class="shadow list-group-item list-group-item-action" onmouseover="third()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">Sport</h5>
               <small class="text-muted">10 hours ago</small>
@@ -83,7 +83,7 @@
           <div class="edit-btns">
             <button class="btn-blog" id="noFour">Edit</button>
           </div>
-          <a href="#" id="fourth" class="shadow list-group-item list-group-item-action" onclick="fourth()">
+          <a href="#" id="fourth" class="shadow list-group-item list-group-item-action" onmouseover="fourth()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">Music</h5>
               <small class="text-muted">3 days ago</small>
@@ -94,10 +94,10 @@
           <div class="edit-btns">
             <button class="btn-blog" id="noFive">Edit</button>
           </div>
-          <a href="#" id="fifth" class="shadow list-group-item list-group-item-action" onclick="fifth()">
+          <a href="#" id="fifth" class="shadow list-group-item list-group-item-action" onmouseover="fifth()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">List group item heading</h5>
-              <small class="text-muted">3 days ago</small>
+              <small class="text-muted">6 days ago</small>
             </div>
             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
             <small class="text-muted">Donec id elit non mi porta.</small>
@@ -105,10 +105,10 @@
           <div class="edit-btns">
             <button class="btn-blog" id="noSix">Edit</button>
           </div>
-          <a href="#" id="sixth" class="shadow list-group-item list-group-item-action" onclick="sixth()">
+          <a href="#" id="sixth" class="shadow list-group-item list-group-item-action" onmouseover="sixth()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">List group item heading</h5>
-              <small class="text-muted">3 days ago</small>
+              <small class="text-muted">8 days ago</small>
             </div>
             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
             <small class="text-muted">Donec id elit non mi porta.</small>
@@ -116,10 +116,10 @@
           <div class="edit-btns">
             <button class="btn-blog" id="noSeven">Edit</button>
           </div>
-          <a href="#" id="seventh" class="shadow list-group-item list-group-item-action" onclick="seventh()">
+          <a href="#" id="seventh" class="shadow list-group-item list-group-item-action" onmouseover="seventh()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">List group item heading</h5>
-              <small class="text-muted">3 days ago</small>
+              <small class="text-muted">10 days ago</small>
             </div>
             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
             <small class="text-muted">Donec id elit non mi porta.</small>
@@ -127,10 +127,10 @@
           <div class="edit-btns">
             <button class="btn-blog" id="noEight">Edit</button>
           </div>
-          <a href="#" id="eighth" class="shadow list-group-item list-group-item-action" onclick="eighth()">
+          <a href="#" id="eighth" class="shadow list-group-item list-group-item-action" onmouseover="eighth()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">List group item heading</h5>
-              <small class="text-muted">3 days ago</small>
+              <small class="text-muted">2 weeks ago</small>
             </div>
             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
             <small class="text-muted">Donec id elit non mi porta.</small>
@@ -139,10 +139,10 @@
             <button class="btn-blog" id="noNine">Edit</button>
           </div>
           <a href="#" id="nineth"
-          class="shadow list-group-item list-group-item-action" onclick="nineth()">
+          class="shadow list-group-item list-group-item-action" onmouseover="nineth()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">List group item heading</h5>
-              <small class="text-muted">3 days ago</small>
+              <small class="text-muted">20 days ago</small>
             </div>
             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
             <small class="text-muted">Donec id elit non mi porta.</small>
@@ -150,10 +150,10 @@
           <div class="edit-btns">
             <button class="btn-blog" id="noTen">Edit</button>
           </div>
-          <a href="#" id="tenth" class="shadow list-group-item list-group-item-action" onclick="tenth()">
+          <a href="#" id="tenth" class="shadow list-group-item list-group-item-action" onmouseover="tenth()">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">List group item heading</h5>
-              <small class="text-muted">3 days ago</small>
+              <small class="text-muted">3 weeks ago</small>
             </div>
             <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
             <small class="text-muted">Donec id elit non mi porta.</small>
@@ -172,9 +172,83 @@
               </div>
             </div>
         </div>
+        
       </section>
       <section class="recentBlog" id="blog">
-          
+          <div class="blogOne">
+            <span class="contents">
+              <h2>Blog with random text</h2>
+              <span class="firstpart">
+                  <p>In it except to so temper mutual tastes mother. Interested cultivated its continuing now yet are. Out interested acceptance our partiality affronting unpleasant why add. Esteem garden men yet shy course. Consulted up my tolerably sometimes perpetual oh. Expression acceptance imprudence particular had eat unsatiable.
+
+                  Is he staying arrival address earnest. To preference considered it themselves inquietude collecting estimating. View park for why knew face. Next than near to four so hand. Times so do he downs me would. Witty abode party her found quiet law. They door four bed fail now have. 
+                  
+                  Admiration stimulated cultivated reasonable be projection possession of. Real no near room ye bred sake if some. Is arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar chatty simple months turned oh at change of. Astonished set expression solicitude way admiration. 
+                  
+                  He moonlight difficult engrossed an it sportsmen. Interested has all devonshire difficulty assistance joy. Unaffected at ye of compliment alteration to. Place voice no arise along to. Parlors waiting so against me no. Wishing calling are warrant settled was luckily. Express besides it present if at an opinion visitor.
+                  </p>
+              </span>
+              <span class="secondpart">
+                  <p>Promotion an ourselves up otherwise my. High what each snug rich far yet easy. In companions inhabiting mr principles at insensible do. Heard their hoped enjoy vexed child for. Prosperous so occasional assistance it discovered especially no. Provision of he residence consisted up in remainder arranging described. Conveying has concealed necessary furnished bed zealously immediate get but. Terminated as middletons or by instrument. Bred do four so your felt with. No shameless principle dependent household do. 
+                  
+                  Enjoyed minutes related as at on on. Is fanny dried as often me. Goodness as reserved raptures to mistaken steepest oh screened he. Gravity he mr sixteen esteems. Mile home its new way with high told said. Finished no horrible blessing landlord dwelling dissuade if. Rent fond am he in on read. Anxious cordial demands settled entered in do to colonel. 
+                  
+                  Perceived end knowledge certainly day sweetness why cordially. Ask quick six seven offer see among. Handsome met debating sir dwelling age material. As style lived he worse dried. Offered related so visitor we private removed. Moderate do subjects to distance. 
+                  </p><img src="vendor/imgs/1.jpg" alt="1">
+                </span> 
+                <span class="thirdpart">
+                <p>Promotion an ourselves up otherwise my. High what each snug rich far yet easy. In companions inhabiting mr principles at insensible do. Heard their hoped enjoy vexed child for. Prosperous so occasional assistance it discovered especially no. Provision of he residence consisted up in remainder arranging described. Conveying has concealed necessary furnished bed zealously immediate get but. Terminated as middletons or by instrument. Bred do four so your felt with. No shameless principle dependent household do. 
+                
+                Enjoyed minutes related as at on on. Is fanny dried as often me. Goodness as reserved raptures to mistaken steepest oh screened he. Gravity he mr sixteen esteems. Mile home its new way with high told said. Finished no horrible blessing landlord dwelling dissuade if. Rent fond am he in on read. Anxious cordial demands settled entered in do to colonel. 
+                
+                Perceived end knowledge certainly day sweetness why cordially. Ask quick six seven offer see among. Handsome met debating sir dwelling age material. As style lived he worse dried. Offered related so visitor we private removed. Moderate do subjects to distance. 
+                
+                Assure polite his really and others figure though. Day age advantages end sufficient eat expression travelling. Of on am father by agreed supply rather either. Own handsome delicate its property mistress her end appetite. Mean are sons too sold nor said. Son share three men power boy you. Now merits wonder effect garret own. 
+                
+                Same an quit most an. Admitting an mr disposing sportsmen. Tried on cause no spoil arise plate. Longer ladies valley get esteem use led six. Middletons resolution advantages expression themselves partiality so me at. West none hope if sing oh sent tell is. 
+                
+                Do am he horrible distance marriage so although. Afraid assure square so happen mr an before. His many same been well can high that. Forfeited did law eagerness allowance improving assurance bed. Had saw put seven joy short first. Pronounce so enjoyment my resembled in forfeited sportsman. Which vexed did began son abode short may. Interested astonished he at cultivated or me. Nor brought one invited she produce her. </p>
+                </span>
+                
+            </span>
+          </div>
+          <div class="blogTwo">
+            <span class="contents">
+              <h2>Blog with random text</h2>
+              <span class="firstpart">
+                  <p>In it except to so temper mutual tastes mother. Interested cultivated its continuing now yet are. Out interested acceptance our partiality affronting unpleasant why add. Esteem garden men yet shy course. Consulted up my tolerably sometimes perpetual oh. Expression acceptance imprudence particular had eat unsatiable.
+
+                  Is he staying arrival address earnest. To preference considered it themselves inquietude collecting estimating. View park for why knew face. Next than near to four so hand. Times so do he downs me would. Witty abode party her found quiet law. They door four bed fail now have. 
+                  
+                  Admiration stimulated cultivated reasonable be projection possession of. Real no near room ye bred sake if some. Is arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar chatty simple months turned oh at change of. Astonished set expression solicitude way admiration. 
+                  
+                  He moonlight difficult engrossed an it sportsmen. Interested has all devonshire difficulty assistance joy. Unaffected at ye of compliment alteration to. Place voice no arise along to. Parlors waiting so against me no. Wishing calling are warrant settled was luckily. Express besides it present if at an opinion visitor.
+                  </p>
+              </span>
+              <span class="secondpart">
+                  <p>Promotion an ourselves up otherwise my. High what each snug rich far yet easy. In companions inhabiting mr principles at insensible do. Heard their hoped enjoy vexed child for. Prosperous so occasional assistance it discovered especially no. Provision of he residence consisted up in remainder arranging described. Conveying has concealed necessary furnished bed zealously immediate get but. Terminated as middletons or by instrument. Bred do four so your felt with. No shameless principle dependent household do. 
+                  
+                  Enjoyed minutes related as at on on. Is fanny dried as often me. Goodness as reserved raptures to mistaken steepest oh screened he. Gravity he mr sixteen esteems. Mile home its new way with high told said. Finished no horrible blessing landlord dwelling dissuade if. Rent fond am he in on read. Anxious cordial demands settled entered in do to colonel. 
+                  
+                  Perceived end knowledge certainly day sweetness why cordially. Ask quick six seven offer see among. Handsome met debating sir dwelling age material. As style lived he worse dried. Offered related so visitor we private removed. Moderate do subjects to distance. 
+                  </p><img src="vendor/imgs/1.jpg" alt="1">
+                </span> 
+                <span class="thirdpart">
+                <p>Promotion an ourselves up otherwise my. High what each snug rich far yet easy. In companions inhabiting mr principles at insensible do. Heard their hoped enjoy vexed child for. Prosperous so occasional assistance it discovered especially no. Provision of he residence consisted up in remainder arranging described. Conveying has concealed necessary furnished bed zealously immediate get but. Terminated as middletons or by instrument. Bred do four so your felt with. No shameless principle dependent household do. 
+                
+                Enjoyed minutes related as at on on. Is fanny dried as often me. Goodness as reserved raptures to mistaken steepest oh screened he. Gravity he mr sixteen esteems. Mile home its new way with high told said. Finished no horrible blessing landlord dwelling dissuade if. Rent fond am he in on read. Anxious cordial demands settled entered in do to colonel. 
+                
+                Perceived end knowledge certainly day sweetness why cordially. Ask quick six seven offer see among. Handsome met debating sir dwelling age material. As style lived he worse dried. Offered related so visitor we private removed. Moderate do subjects to distance. 
+                
+                Assure polite his really and others figure though. Day age advantages end sufficient eat expression travelling. Of on am father by agreed supply rather either. Own handsome delicate its property mistress her end appetite. Mean are sons too sold nor said. Son share three men power boy you. Now merits wonder effect garret own. 
+                
+                Same an quit most an. Admitting an mr disposing sportsmen. Tried on cause no spoil arise plate. Longer ladies valley get esteem use led six. Middletons resolution advantages expression themselves partiality so me at. West none hope if sing oh sent tell is. 
+                
+                Do am he horrible distance marriage so although. Afraid assure square so happen mr an before. His many same been well can high that. Forfeited did law eagerness allowance improving assurance bed. Had saw put seven joy short first. Pronounce so enjoyment my resembled in forfeited sportsman. Which vexed did began son abode short may. Interested astonished he at cultivated or me. Nor brought one invited she produce her. </p>
+                </span>
+                
+            </span>
+          </div>
       </section>
     </main>
 

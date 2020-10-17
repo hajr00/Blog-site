@@ -190,11 +190,61 @@ function tenth() {
 function postComment() {
 
 }
-
-
 function recentBlogOn() {
-  /* show */
+  
 }
 function homePage() {
   /* show */
 }
+
+/* BLOGS SELECTION */ 
+
+function focusedBlog() {
+  document.getElementById("first").addEventListener("click", firstBlog);
+  document.getElementById("second").addEventListener("click", secondBlog);
+  document.getElementById("third").addEventListener("click", thirdBlog);
+  document.getElementById("fourth").addEventListener("click", fourthBlog);
+  document.getElementById("fifth").addEventListener("click", fifthBlog);
+  document.getElementById("sixth").addEventListener("click", sixthBlog);
+  document.getElementById("seventh").addEventListener("click", seventhBlog);
+  document.getElementById("eighth").addEventListener("click", eighthBlog);
+  document.getElementById("nineth").addEventListener("click", ninethBlog);
+  document.getElementById("tenth").addEventListener("click", tenthBlog);
+}
+function homePage() {
+  document.querySelector('#landingpage').style.display = 'inline-block';
+  document.querySelector('#blog').style.display = 'none';
+}
+
+function firstBlog() {
+  document.querySelector('#landingpage').style.display = 'none';
+  document.querySelector('#blog').style.display = 'block';
+}
+function secondBlog () {
+  document.querySelector('#landingpage').style.display = 'none';
+}
+function thirdBlog () {
+  document.querySelector('#landingpage').style.display = 'none';
+}
+function fourthBlog () {
+  document.querySelector('#landingpage').style.display = 'none';
+}
+function fifthBlog () {
+  document.querySelector('#landingpage').style.display = 'none';
+}
+function sixthBlog () {
+  document.querySelector('#landingpage').style.display = 'none';
+}
+function seventhBlog () {
+  document.querySelector('#landingpage').style.display = 'none';
+}
+function eighthBlog () {
+  document.querySelector('#landingpage').style.display = 'none';
+}
+function ninethBlog () {
+  document.querySelector('#landingpage').style.display = 'none';
+}
+function tenthBlog () {
+  document.querySelector('#landingpage').style.display = 'none';
+}
+focusedBlog();
